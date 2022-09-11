@@ -1,5 +1,5 @@
 <html>
-<head><title>Example 2 in JSP nika ido and mazrai</title></head>
+<head><title>FINAL PROJECT SP nika ido and mazrai</title></head>
 <body>
 <h1> Lets try your luck here!  </h1>
 <%
