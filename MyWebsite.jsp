@@ -1,7 +1,7 @@
 <html>
 <head><title>FINAL PROJECT SP nika ido and mazrai</title></head>
 <body>
-<h1> Lets try your luck here!  </h1>
+<h1> Lets try your luck here nika!  </h1>
 <%
 double num = Math.random();
 if (num > 0.95) {
