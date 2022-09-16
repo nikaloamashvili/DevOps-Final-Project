@@ -1,12 +1,18 @@
 <html>
-<head><title>FINAL PROJECT SP nika ido and mazrai</title></head>
+<head><title>First JSP</title></head>
 <body>
-<h1> Lets try your luck here nika!  </h1>
-{% double num = Math.random(); if (num > 0.95)  %}
-<h2>You'll have a lucky day!</h2><p>The number you got in your stars is: <%= num %> </p>
-<%{ else }%>
-<h2>Well, life goes on ... </h2><p>The number you got in your stars is: <%= num %> </p>
-{% endif %}
-<a href="<%= request.getRequestURI() %>"><b>Click here to try Again</b></a>
+  <%
+    double num = Math.random();
+    if (num > 0.95) {
+  %>
+      <h2>You'll have a luck day!</h2><p>(<%= num %>)</p>
+  <%
+    } else {
+  %>
+      <h2>Well, life goes on ... </h2><p>(<%= num %>)</p>
+  <%
+    }
+  %>
+  <a href="<%= request.getRequestURI() %>"><h3>Try Again</h3></a>
 </body>
 </html>
