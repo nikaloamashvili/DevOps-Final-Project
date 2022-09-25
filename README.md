@@ -10,7 +10,7 @@ Docker-Compose,Jenkins,Docker and Tomcat server.
 
 # start here
 - Download The Yml File.
-- Open your ubuntu machine  terminal and tipe:
+- Open your ubuntu machine  terminal and type:
 sudo docker-compose -f docker-compose-tomcatjenkins.yml up
 - Open localhost:8080 in your  Web Browser  and configure Jenkins.
 - Configure thre jobs with the files here Job1,Job2 and Job3.
