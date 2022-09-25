@@ -9,7 +9,8 @@ Docker-Compose,Jenkins,Docker and Tomcat server.
 -  Jenkins Job 3 -runs evry minute and monitors the  tomcat site.
 
 # start here
-- Download The Yml File.
+- Open a new Github  GitHub Repostory and push in to it JSPSample folder.
+- Download The Yml File(edit the file with your machine folders and your GitHub Repostory).
 - Open your ubuntu machine  terminal and type:
 sudo docker-compose -f docker-compose-tomcatjenkins.yml up
 - Open localhost:8080 in your  Web Browser  and configure Jenkins.
